@@ -39,17 +39,17 @@ body {
 }
 
 .hero.with-background {
-  background-image: url('https://www.transparenttextures.com/patterns/cubes.png'), linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+  background-image: url('https://images.unsplash.com/photo-1581091012184-5c1f83b9e2ec?fit=crop&w=1920&q=80');
   background-size: cover;
-  background-blend-mode: overlay;
+  background-position: center;
   color: white;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   position: relative;
 }
 
 .hero.with-background .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   border-radius: 10px;
   display: inline-block;
